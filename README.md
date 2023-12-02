@@ -8,3 +8,16 @@
 - Automatic day setup
 - Puzzle input automatically fetched
 - Performance metrics
+
+
+### Setup a new day
+
+```sh
+$ bun setup 1
+```
+
+### Run a day
+
+```sh
+$ bun day 1
+```
