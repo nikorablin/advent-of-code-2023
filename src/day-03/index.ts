@@ -11,7 +11,7 @@ const arrayRange = (start: number, stop: number, step = 1) =>
   )
 
 const addBorder = (input: string[]) => {
-  const border = [...Array(input[0].length)].map(() => '.').join('')
+  const border = Array(input[0].length).fill('.').join('')
   return [
     border,
     ...input.map((line) => `.${line}.`),
